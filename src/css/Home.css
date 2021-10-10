@@ -1,0 +1,78 @@
+.home-section1__container{
+    display: flex;
+    justify-content: space-around;
+    background-color: greenyellow;
+    padding-top: 5rem;
+}
+
+.home-section1__image{
+    width: 30rem;
+}
+.home-section1__text{
+    width: 35rem;
+    background-color: teal;
+}
+.choose__container{
+    display: grid;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.choose__container h2{
+    text-align: center;
+}
+
+.choose__details{
+    display: flex;
+    justify-content: space-around;
+    background-color: rebeccapurple;
+}
+.choose__details__paragraph {
+    width: 20em;
+    background-color: yellow;
+    padding-right: 1rem;
+}
+.choose__details__data1, .choose__details__data2, .choose__details__data3{
+    display: flex;
+    justify-content: space-around;
+    background-color: salmon;
+    flex-direction: column;
+}
+.service-info{
+    background-color: seagreen;
+    padding-top: 2rem;
+}
+.service-info__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-info__container__image{
+    width: 18rem;
+}
+.service-info__text p{
+    width: 35rem;
+}
+
+.services__heading, .Team__heading{
+    text-align: center;
+}
+.services-details__container, .Team-details__container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.services-details__data, .Team-details__data{
+    display: flex;
+    flex-direction: column;
+}
+.services-details__data__image, .Team-details__data__image{
+    width: 5rem;
+    margin: 0 auto;
+}
+.services-details__data__text p, .Team-details__data__text p{
+    width: 15rem;
+    text-align: center;
+}
+.services-details__data__text h2, .Team-details__data__text h2{
+    text-align: center;
+}

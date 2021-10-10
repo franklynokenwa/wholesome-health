@@ -1,0 +1,28 @@
+nav{
+    background-color: red;
+    justify-content: space-around;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.nav-items{
+    text-decoration: none;
+    background-color: green;
+    width: 20rem;
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+}
+.nav-buttons{
+    display: flex;
+    align-items: center;
+}
+.nav-buttons button{
+    margin-right: 10px;
+    width: 8rem;
+}
