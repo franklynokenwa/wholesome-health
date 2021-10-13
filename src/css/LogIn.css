@@ -1,0 +1,6 @@
+.log-in{
+    display: flex;
+    justify-content: space-between;
+    background-color: greenyellow;
+    margin: 5rem 8rem;
+}

@@ -1,5 +1,59 @@
 .footer{
     display: flex;
     justify-content: space-around;
-    background-color: red;
+    background-color: whitesmoke;
+}
+.footer h3{
+    color: #110cf3;
+    font-size: 2.5rem;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    position: relative;
+}
+
+.footer__links a{
+    text-decoration: none;
+    color: black;
+}
+.footer__links a:hover{
+    color: #413DF5;
+}
+.footer__details_email, .footer__details_phone{
+    display: flex;
+    justify-content: space-between;
+    width: 17rem;
+
+}
+.footer__details_email a, .footer__details_phone a, .footer__facebook-icon,.footer__twitter-icon,.footer__instagram-icon{
+    color: black;
+}
+.footer__details_email a :hover, .footer__details_phone a :hover,.footer__facebook-icon:hover,.footer__twitter-icon:hover,.footer__instagram-icon:hover{
+    color: #413DF5;
+}
+.footer__details_phone a, .footer__details_email a{
+    text-decoration: none;
+}
+
+.footer__details_email a p{
+    text-decoration: none;
+    position: relative;
+    top: -1.3rem;
+}
+.footer__details_phone a p{
+    text-decoration: none;
+    position: relative;
+    top: -1.2rem;
+    left: -7.9rem;
+}
+
+.footer__phone-icon, .footer__email-icon, .footer__phone-icon,.footer__facebook-icon,.footer__twitter-icon,.footer__instagram-icon{
+    font-size: 1.5rem;
+}
+.footer__details_social-icons{
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__facebook-icon{
+    font-size: 1.5rem;
 }

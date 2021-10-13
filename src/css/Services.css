@@ -1,0 +1,31 @@
+
+.services-intro__text{
+    width: 40rem;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    top: -20rem;
+    background-color: blue;
+    
+}
+.services-info{
+    width: 20rem;
+    background-color: red;
+    margin: 3rem auto;
+}
+.services-info h2{
+    text-align: center;
+}
+.services-details{
+    background-color: green;
+    margin: 3rem 0;
+}
+.services-details__container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.services-details__info_text{
+    background-color: yellow;
+    width: 20rem;
+}
