@@ -33,6 +33,11 @@
     position: relative;
     left: -5rem;
 }
+.checkBox__error{
+    position: relative;
+    color: red;
+
+}
 .sign-up__check_container{
     display: flex;
     width: 29rem;
@@ -43,6 +48,7 @@
     left: -8rem;
     top: -1rem;
     width: 35rem;
+    margin-bottom: -1rem;
 }
 .sign-up__details form button{
     width: 21rem;
@@ -50,6 +56,7 @@
     border-radius: 5px;
     height: 3rem;
     background-color: #110cf3;
+    
 }
 .sign-up__details form button:hover{
     background-color: #413DF5;
@@ -58,4 +65,7 @@
 .sign-up__details form input:focus{
     outline: thick;
     border: 2px solid #110cf3;
+}
+.error-message{
+    color: red;
 }
