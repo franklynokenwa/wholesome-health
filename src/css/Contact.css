@@ -1,0 +1,74 @@
+.contact__header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -30rem;
+    background-color: whitesmoke;
+}
+.contact__header__text{
+    background-color:  rgba(37, 37, 41, 0.507);
+    position: relative;
+    top: -35rem;
+    height: 35rem;
+    
+
+}
+.contact__header__text h3{
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    top: 12rem;
+    font-size: 2rem;    
+}
+
+.contact__header__image{
+    width: 25%;
+    height: 35rem;
+    margin: 0 auto;
+    
+}
+.contact__details{
+    background-color: #110cf3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 3rem auto;
+    padding-bottom: 2rem;
+}
+.contact__details h2{
+    text-align: center;
+}
+.contact__details form{
+    width: 30rem;
+    margin: 0 auto;
+}
+.contact__details form input{
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    
+}
+.contact__details textarea{
+    width: 25rem;
+    height: 6rem;
+    border-radius: 5px;
+}
+.contact__details form input:focus, .contact__details textarea:focus{
+    outline: thick;
+    border: 2px solid whitesmoke;
+
+}
+.contact__details form button{
+    width: 25.5rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.contact__details form button:hover{
+    background-color: #413DF5;
+}

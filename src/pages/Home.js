@@ -1,7 +1,10 @@
 import React from 'react'
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar'
+import ExpertTeam from '../components/ExpertTeam';
+
 import '../css/Home.css'
+
 import doc from '../images/clipart-doctor-lady-doctor-11.png';
 import serviceImage from '../images/pexels-tima-miroshnichenko-5452201.jpg';
 import groupDoctors from '../images/group-doctors.png'
@@ -10,9 +13,7 @@ import surgery from '../images/surgery.jpg'
 import qualifiedDoc from '../images/qualified-doc.png'
 import hospitalFacility from '../images/hospital-facility.png'
 import hospitalRoom from '../images/hospital-room.jpg'
-import surgeon from '../images/surgeon.jpg'
-import darkDoctor from '../images/dark-doctor.png'
-import experiecedDoctor from '../images/experienced-doctor.png'
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStethoscope } from '@fortawesome/free-solid-svg-icons'
@@ -32,7 +33,7 @@ const Home = () => {
                         <p>Fugiat adipisicing ut esse mollit minim reprehenderit laborum in. <br/> Commodo labore aliqua sit fugiat anim pariatur eu aute eiusmod id consectetur voluptate fugiat. Qui irure exercitation consectetur excepteur irure fugiat magna occaecat.</p>
                         <button>Get Appointment</button>
                     </div> 
-                    <img src={groupDoctors} className="home-service-info__container__image" alt=""/>
+                    <img src={groupDoctors} className="home-section1__image" alt=""/>
                 </div>
             </section>
             <section className="choose">
@@ -59,7 +60,7 @@ const Home = () => {
             </section>
             <section className="home-service-info">
                 <div className="home-service-info__container">
-                    <img className="home-section1__image" src={twoDoc} alt=""/>  
+                    <img className="home-service-info__container__image" src={twoDoc} alt=""/>  
                     <div className="home-service-info__text">
                         <h3>Service we provide</h3>
                         <p>Cupidatat nisi qui veniam amet excepteur.Nulla commodo aliqua esse eiusmod eu exercitation duis culpa culpa. Anim eu ad proident sint nisi. Adipisicing pariatur reprehenderit veniam ad laboris consectetur nisi. Irure laborum adipisicing ut officia duis commodo. Amet eu eu dolore proident et ad nisi ullamco sunt adipisicing officia. Est nulla laborum dolore nostrud Lorem sunt dolore esse.</p>
@@ -97,38 +98,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
-            <section className="Team">
-                <div className="Team__container">
-                    <div className="Team__heading">
-                        <h2> Our Expert Team </h2>
-                        <p>Eu eiusmod aute nulla amet minim consequat cillum do nulla aliqua aliqua cillum.</p>
-                    </div>
-                    <div className="Team-details__container">
-                        <div className="Team-details__data">
-                            <img src={surgeon} className="Team-details__data__image" alt=""/>
-                            <div className="Team-details__data__text">
-                                <h2>Dr Helen Paul</h2>
-                                <p>Cardiac Surgeon</p>
-                            </div>
-                        </div>
-                        <div className="Team-details__data">
-                            <img src={darkDoctor} className="Team-details__data__image" alt=""/>
-                            <div className="Team-details__data__text">
-                                <h2>Dr Victor Fernandez</h2>
-                                <p>Cardiac Surgeon</p>
-                            </div>
-                        </div>
-                        <div className="Team-details__data">
-                            <img src={experiecedDoctor} className="Team-details__data__image" alt=""/>
-                            <div className="Team-details__data__text">
-                                <h2>Dr John Maxwell</h2>
-                                <p>Cardiac Surgeon</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <ExpertTeam/>            
             <Footer/>
         </main>
     )

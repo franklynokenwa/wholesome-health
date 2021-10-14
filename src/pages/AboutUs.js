@@ -1,11 +1,22 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
+import ExpertTeam from '../components/ExpertTeam';
+
 import '../css/AboutUs.css';
+
 import doc from '../images/clipart-doctor-lady-doctor-11.png';
 import serviceImage from '../images/pexels-tima-miroshnichenko-5452201.jpg';
+import aboutDoctors from '../images/about-doctors.png';
+import youngDoctor from '../images/young-doctor.png';
 
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStethoscope } from '@fortawesome/free-solid-svg-icons'
+import { faXRay } from '@fortawesome/free-solid-svg-icons'
+import { faProcedures } from '@fortawesome/free-solid-svg-icons'
+import { faUserMd } from '@fortawesome/free-solid-svg-icons'
+import { faLungs } from '@fortawesome/free-solid-svg-icons'
+import { faWeight } from '@fortawesome/free-solid-svg-icons'
 
 
 const AboutUs = () => {
@@ -13,103 +24,75 @@ const AboutUs = () => {
         <section classname="about">
             <NavBar/>
             <section className="about__header">
-                <img className="about__header__image" src={doc} alt=""/>
+                <div className="about__header__image_container">
+                    <img className="about__header__image" src={aboutDoctors} alt=""/>
+                </div>
                 <div className="about__header__details">
                     <div className="about__header__details_text">
                         <h2>Provide best health care treatment</h2>
                         <p>Elit aute pariatur laborum voluptate ipsum non cillum dolor. Aute sit quis excepteur non ex. Veniam quis excepteur nostrud in deserunt aliquip occaecat voluptate pariatur non elit duis amet ipsum.</p>
                     </div>
-                    <img className="about__header__details__image" src={doc} alt=""/>
+                    <img className="about__header__details__image" src={youngDoctor} alt=""/>
                 </div>
             </section>
             <section className="departments">
                 <h2>Our Departments</h2>
                 <div className="departments__details">
                     <div className="departments__details__data">
-                        <img className="departments__details__data_image" src={doc} alt=""/>
+                        <FontAwesomeIcon icon={faXRay} className="departments__details__data_icon"/> 
                         <h3>Cardiology</h3>
-                        <p>Esse ad aliqua incididunt id ut reprehenderit minim exercitation commodo mollit eu. Quis ipsum labore commodo dolor id ex ea aliqua culpa elit incididunt labore. Est aliquip nostrud irure magna proident sint est ex cupidatat nulla duis nulla ea. Consectetur laborum aute deserunt ut quis laboris. Sint aliquip nisi consectetur eu dolore exercitation irure et tempor. Duis Lorem cillum eiusmod adipisicing. Non consequat laborum incididunt duis voluptate ipsum anim esse deserunt occaecat incididunt dolor nisi.</p>
+                        <p className="departments__details__paragraph">Ut ea pariatur est anim adipisicing adipisicing dolor enim. Veniam enim do esse consequat. Lorem anim eiusmod ea veniam.</p>
                     </div>
                     <div className="departments__details__data">
-                        <img className="departments__details__data_image" src={doc} alt=""/>
-                        <h3>Cardiology</h3>
-                        <p>Esse ad aliqua incididunt id ut reprehenderit minim exercitation commodo mollit eu. Quis ipsum labore commodo dolor id ex ea aliqua culpa elit incididunt labore. Est aliquip nostrud irure magna proident sint est ex cupidatat nulla duis nulla ea. Consectetur laborum aute deserunt ut quis laboris. Sint aliquip nisi consectetur eu dolore exercitation irure et tempor. Duis Lorem cillum eiusmod adipisicing. Non consequat laborum incididunt duis voluptate ipsum anim esse deserunt occaecat incididunt dolor nisi.</p>
+                        <FontAwesomeIcon icon={faStethoscope} className="departments__details__data_icon"/>
+                        <h3>Pediatrics</h3>
+                        <p className="departments__details__paragraph">Ut ea pariatur est anim adipisicing adipisicing dolor enim. Veniam enim do esse consequat. Lorem anim eiusmod ea veniam.</p>
                     </div>
                     <div className="departments__details__data">
-                        <img className="departments__details__data_image" src={doc} alt=""/>
-                        <h3>Cardiology</h3>
-                        <p>Esse ad aliqua incididunt id ut reprehenderit minim exercitation commodo mollit eu. Quis ipsum labore commodo dolor id ex ea aliqua culpa elit incididunt labore. Est aliquip nostrud irure magna proident sint est ex cupidatat nulla duis nulla ea. Consectetur laborum aute deserunt ut quis laboris. Sint aliquip nisi consectetur eu dolore exercitation irure et tempor. Duis Lorem cillum eiusmod adipisicing. Non consequat laborum incididunt duis voluptate ipsum anim esse deserunt occaecat incididunt dolor nisi.</p>
+                        <FontAwesomeIcon icon={faProcedures} className="departments__details__data_icon"/>
+                        <h3>Surgery</h3>
+                        <p className="departments__details__paragraph">Ut ea pariatur est anim adipisicing adipisicing dolor enim. Veniam enim do esse consequat. Lorem anim eiusmod ea veniam.</p>
                     </div>
                 </div>
 
                 <div className="departments__details">
                     <div className="departments__details__data">
-                        <img className="departments__details__data_image" src={doc} alt=""/>
-                        <h3>Cardiology</h3>
-                        <p>Esse ad aliqua incididunt id ut reprehenderit minim exercitation commodo mollit eu. Quis ipsum labore commodo dolor id ex ea aliqua culpa elit incididunt labore. Est aliquip nostrud irure magna proident sint est ex cupidatat nulla duis nulla ea. Consectetur laborum aute deserunt ut quis laboris. Sint aliquip nisi consectetur eu dolore exercitation irure et tempor. Duis Lorem cillum eiusmod adipisicing. Non consequat laborum incididunt duis voluptate ipsum anim esse deserunt occaecat incididunt dolor nisi.</p>
+                        <FontAwesomeIcon icon={faUserMd} className="departments__details__data_icon"/>
+                        <h3>Medical Diagnosis</h3>
+                        <p className="departments__details__paragraph">Ut ea pariatur est anim adipisicing adipisicing dolor enim. Veniam enim do esse consequat. Lorem anim eiusmod ea veniam.</p>
                     </div>
                     <div className="departments__details__data">
-                        <img className="departments__details__data_image" src={doc} alt=""/>
-                        <h3>Cardiology</h3>
-                        <p>Esse ad aliqua incididunt id ut reprehenderit minim exercitation commodo mollit eu. Quis ipsum labore commodo dolor id ex ea aliqua culpa elit incididunt labore. Est aliquip nostrud irure magna proident sint est ex cupidatat nulla duis nulla ea. Consectetur laborum aute deserunt ut quis laboris. Sint aliquip nisi consectetur eu dolore exercitation irure et tempor. Duis Lorem cillum eiusmod adipisicing. Non consequat laborum incididunt duis voluptate ipsum anim esse deserunt occaecat incididunt dolor nisi.</p>
+                        <FontAwesomeIcon icon={faLungs} className="departments__details__data_icon"/>
+                        <h3>Clinical Operations</h3>
+                        <p className="departments__details__paragraph">Ut ea pariatur est anim adipisicing adipisicing dolor enim. Veniam enim do esse consequat. Lorem anim eiusmod ea veniam.</p>
                     </div>
                     <div className="departments__details__data">
-                        <img className="departments__details__data_image" src={doc} alt=""/>
-                        <h3>Cardiology</h3>
-                        <p>Esse ad aliqua incididunt id ut reprehenderit minim exercitation commodo mollit eu. Quis ipsum labore commodo dolor id ex ea aliqua culpa elit incididunt labore. Est aliquip nostrud irure magna proident sint est ex cupidatat nulla duis nulla ea. Consectetur laborum aute deserunt ut quis laboris. Sint aliquip nisi consectetur eu dolore exercitation irure et tempor. Duis Lorem cillum eiusmod adipisicing. Non consequat laborum incididunt duis voluptate ipsum anim esse deserunt occaecat incididunt dolor nisi.</p>
+                        <FontAwesomeIcon icon={faWeight} className="departments__details__data_icon"/>
+                        <h3>Testing</h3>
+                        <p className="departments__details__paragraph">Ut ea pariatur est anim adipisicing adipisicing dolor enim. Veniam enim do esse consequat. Lorem anim eiusmod ea veniam.</p>
                     </div>
                     
                 </div>
             </section>
             <section className="impact">
                 <div className="impact__data">
-                    <h2>900</h2>
+                    <h2>1000</h2>
                     <p>Clinic Reviews</p>
                 </div>
                 <div>
-                    <h2>900</h2>
-                    <p>Clinic Reviews</p>
+                    <h2>3.5M</h2>
+                    <p>Patients served</p>
                 </div>
                 <div>
-                    <h2>900</h2>
-                    <p>Clinic Reviews</p>
+                    <h2>8600</h2>
+                    <p>Medicine distributed</p>
                 </div>
                 <div>
-                    <h2>900</h2>
-                    <p>Clinic Reviews</p>
+                    <h2>150</h2>
+                    <p>Clinic rooms</p>
                 </div>
             </section>
-            <section className="Team">
-                <div className="Team__container">
-                    <div className="Team__heading">
-                        <h2> Our Expert Team </h2>
-                        <p>Eu eiusmod aute nulla amet minim consequat cillum do nulla aliqua aliqua cillum.</p>
-                    </div>
-                    <div className="Team-details__container">
-                        <div className="Team-details__data">
-                            <img src={serviceImage} className="Team-details__data__image" alt=""/>
-                            <div className="Team-details__data__text">
-                                <h2>Dr Victor Fernandez</h2>
-                                <p>Cardiac Surgeon</p>
-                            </div>
-                        </div>
-                        <div className="Team-details__data">
-                            <img src={serviceImage} className="Team-details__data__image" alt=""/>
-                            <div className="Team-details__data__text">
-                                <h2>Dr Victor Fernandez</h2>
-                                <p>Cardiac Surgeon</p>
-                            </div>
-                        </div>
-                        <div className="Team-details__data">
-                            <img src={serviceImage} className="Team-details__data__image" alt=""/>
-                            <div className="Team-details__data__text">
-                                <h2>Dr Victor Fernandez</h2>
-                                <p>Cardiac Surgeon</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <ExpertTeam/>
             <Footer/>
         </section>
     )

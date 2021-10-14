@@ -1,6 +1,61 @@
 .sign-up{
     display: flex;
     justify-content: space-between;
-    background-color: greenyellow;
-    margin: 5rem 8rem;
+    background-color: whitesmoke;
+    margin: 2rem 8rem;
+    height: 31.5rem;
+    top: -1rem;
+    overflow: hidden;
+}
+.sign-up__image{
+    height: 31.5rem;
+    width: 23rem;
+    
+}
+.sign-up__details h2{
+    position: relative;
+    top: -1rem;
+}
+
+.sign-up__details form{
+    position: relative;
+    left: -7rem;
+    top: -1rem;
+}
+.sign-up__details form input{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-radius: 4px;
+}
+#sign-up__check-box{
+    height: 1rem;
+    position: relative;
+    left: -5rem;
+}
+.sign-up__check_container{
+    display: flex;
+    width: 29rem;
+    justify-content: space-evenly;
+}
+.sign-up__check_container p{
+    position: relative;
+    left: -8rem;
+    top: -1rem;
+    width: 35rem;
+}
+.sign-up__details form button{
+    width: 21rem;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    background-color: #110cf3;
+}
+.sign-up__details form button:hover{
+    background-color: #413DF5;
+    color: whitesmoke;
+}
+.sign-up__details form input:focus{
+    outline: thick;
+    border: 2px solid #110cf3;
 }

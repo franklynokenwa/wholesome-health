@@ -1,6 +1,41 @@
-.log-in{
+.sign-in{
     display: flex;
     justify-content: space-between;
-    background-color: greenyellow;
-    margin: 5rem 8rem;
+    background-color: whitesmoke;
+    margin: 2rem 8rem;
+    height: 30rem;
+}
+.sign-in__image{
+    height: 30rem;
+    width: 23rem;
+}
+.sign-in__details{
+    padding-top: 2rem;
+}
+
+.sign-in__details form{
+    position: relative;
+    left: -7rem;
+    padding-top: 2rem;
+}
+.sign-in__details form input{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-radius: 4px;
+}
+.sign-in__details form button{
+    width: 21rem;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    background-color: #110cf3;
+}
+.sign-in__details form button:hover{
+    background-color: #413DF5;
+    color: whitesmoke;
+}
+.sign-in__details form input:focus{
+    outline: thick;
+    border: 2px solid #110cf3;
 }
