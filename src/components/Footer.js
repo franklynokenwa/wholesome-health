@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Footer.css'
+import {Link} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -14,10 +15,18 @@ const Footer = () => {
         <section className="footer">
             <h3>WholeSome Health</h3> 
             <div className="footer__links">
-                <a href="/"><p>Home</p></a>
-                <a href="/"><p>About Us</p></a>
-                <a href="/"><p>Our Services</p></a>
-                <a href="/"><p>Contact Us</p></a>
+                <Link to={`/`} className="footer-link">
+                    <p>Home</p>                
+                </Link>
+                <Link to={`/about`} className="footer-link">
+                    <p>About Us</p>                
+                </Link>
+                <Link to={`/services`} className="footer-link">
+                    <p>Our Services</p>                
+                </Link>
+                <Link to={`/contact`} className="footer-link">
+                    <p>Contact us</p>                
+                </Link>
             </div>
             <div className="footer__details">
                 <h2>Contact us</h2>

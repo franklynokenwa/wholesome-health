@@ -3,11 +3,13 @@ import serviceImage from '../images/pexels-tima-miroshnichenko-5452201.jpg';
 import signUpImage from '../images/sign-up.jpg';
 import { useForm } from 'react-hook-form';
 
+
 import '../css/SignUp.css'
 
 const SignUp = () => {
     const {register, formState: {errors}, handleSubmit} = useForm();
     const onSubmit = (data) => console.log(data);
+
     
     return (
         <section className="sign-up">

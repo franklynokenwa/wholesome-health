@@ -5,9 +5,11 @@ import '../css/LogIn.css'
 import { useForm } from 'react-hook-form';
 
 
+
 const LogIn = () => {
     const {register, formState: {errors}, handleSubmit} = useForm();
     const onSubmit = (data) => {};
+
 
     return (
         <section className="sign-in">

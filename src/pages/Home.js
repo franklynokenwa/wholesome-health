@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar'
 import ExpertTeam from '../components/ExpertTeam';
-
+import {Link} from 'react-router-dom'
 import '../css/Home.css'
 
 import doc from '../images/clipart-doctor-lady-doctor-11.png';
@@ -31,7 +31,9 @@ const Home = () => {
                     <div className="home-section1__text">
                         <h1>Take the World's best quality treatment</h1>
                         <p>Fugiat adipisicing ut esse mollit minim reprehenderit laborum in. <br/> Commodo labore aliqua sit fugiat anim pariatur eu aute eiusmod id consectetur voluptate fugiat. Qui irure exercitation consectetur excepteur irure fugiat magna occaecat.</p>
-                        <button>Get Appointment</button>
+                        <Link to={`/signup`} className="footer-link">
+                            <button>Get Appointment</button>               
+                        </Link>
                     </div> 
                     <img src={groupDoctors} className="home-section1__image" alt=""/>
                 </div>
