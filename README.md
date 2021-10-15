@@ -13,7 +13,7 @@ This is a health consulting website that contains a services, about us, contact 
 
 ### Screenshot
 
-![](https://github.com/franklynwisdom/franklyn-Okenwa-portfolio/blob/master/portfolio-home-page.png)
+![](https://github.com/franklynwisdom/wholesome-health/blob/master/wholesome-health-screenshot.PNG)
 
 ### Link
 - Live Site URL: (https://franklynwisdom.github.io/wholesome-health/#/)
