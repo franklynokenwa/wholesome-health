@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/wholesome-health/static/css/main.3079ed7b.chunk.css",
-    "main.js": "/wholesome-health/static/js/main.88687fed.chunk.js",
-    "main.js.map": "/wholesome-health/static/js/main.88687fed.chunk.js.map",
-    "runtime-main.js": "/wholesome-health/static/js/runtime-main.644a88f6.js",
-    "runtime-main.js.map": "/wholesome-health/static/js/runtime-main.644a88f6.js.map",
-    "static/js/2.bcd11a2b.chunk.js": "/wholesome-health/static/js/2.bcd11a2b.chunk.js",
-    "static/js/2.bcd11a2b.chunk.js.map": "/wholesome-health/static/js/2.bcd11a2b.chunk.js.map",
-    "static/js/3.f973ff0e.chunk.js": "/wholesome-health/static/js/3.f973ff0e.chunk.js",
-    "static/js/3.f973ff0e.chunk.js.map": "/wholesome-health/static/js/3.f973ff0e.chunk.js.map",
+    "main.css": "/wholesome-health/static/css/main.e6c80166.chunk.css",
+    "main.js": "/wholesome-health/static/js/main.439b6e49.chunk.js",
+    "main.js.map": "/wholesome-health/static/js/main.439b6e49.chunk.js.map",
+    "runtime-main.js": "/wholesome-health/static/js/runtime-main.14d323c6.js",
+    "runtime-main.js.map": "/wholesome-health/static/js/runtime-main.14d323c6.js.map",
+    "static/js/2.8dabc672.chunk.js": "/wholesome-health/static/js/2.8dabc672.chunk.js",
+    "static/js/2.8dabc672.chunk.js.map": "/wholesome-health/static/js/2.8dabc672.chunk.js.map",
+    "static/js/3.b7ac4d34.chunk.js": "/wholesome-health/static/js/3.b7ac4d34.chunk.js",
+    "static/js/3.b7ac4d34.chunk.js.map": "/wholesome-health/static/js/3.b7ac4d34.chunk.js.map",
     "index.html": "/wholesome-health/index.html",
-    "static/css/main.3079ed7b.chunk.css.map": "/wholesome-health/static/css/main.3079ed7b.chunk.css.map",
-    "static/js/2.bcd11a2b.chunk.js.LICENSE.txt": "/wholesome-health/static/js/2.bcd11a2b.chunk.js.LICENSE.txt",
+    "static/css/main.e6c80166.chunk.css.map": "/wholesome-health/static/css/main.e6c80166.chunk.css.map",
+    "static/js/2.8dabc672.chunk.js.LICENSE.txt": "/wholesome-health/static/js/2.8dabc672.chunk.js.LICENSE.txt",
     "static/media/about-doctors.6bb8db95.png": "/wholesome-health/static/media/about-doctors.6bb8db95.png",
     "static/media/black-female-doctor.321ef7e2.png": "/wholesome-health/static/media/black-female-doctor.321ef7e2.png",
     "static/media/clipart-doctor-lady-doctor-11.b31390f8.png": "/wholesome-health/static/media/clipart-doctor-lady-doctor-11.b31390f8.png",
     "static/media/dark-doctor.070a0d3d.png": "/wholesome-health/static/media/dark-doctor.070a0d3d.png",
     "static/media/experienced-doctor.e52cbd43.png": "/wholesome-health/static/media/experienced-doctor.e52cbd43.png",
     "static/media/group-doctors.f22fb2a4.png": "/wholesome-health/static/media/group-doctors.f22fb2a4.png",
-    "static/media/hospital-facility.bba4b564.png": "/wholesome-health/static/media/hospital-facility.bba4b564.png",
     "static/media/hospital-facilty2.fe8e224c.webp": "/wholesome-health/static/media/hospital-facilty2.fe8e224c.webp",
     "static/media/hospital-room.d1a028c9.jpg": "/wholesome-health/static/media/hospital-room.d1a028c9.jpg",
     "static/media/pexels-tima-miroshnichenko-5452201.f343248b.jpg": "/wholesome-health/static/media/pexels-tima-miroshnichenko-5452201.f343248b.jpg",
@@ -30,9 +29,9 @@
     "static/media/young-doctor.27c48b52.png": "/wholesome-health/static/media/young-doctor.27c48b52.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.644a88f6.js",
-    "static/js/2.bcd11a2b.chunk.js",
-    "static/css/main.3079ed7b.chunk.css",
-    "static/js/main.88687fed.chunk.js"
+    "static/js/runtime-main.14d323c6.js",
+    "static/js/2.8dabc672.chunk.js",
+    "static/css/main.e6c80166.chunk.css",
+    "static/js/main.439b6e49.chunk.js"
   ]
 }
