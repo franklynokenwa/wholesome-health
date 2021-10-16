@@ -1,5 +1,4 @@
 import React from 'react'
-import serviceImage from '../images/pexels-tima-miroshnichenko-5452201.jpg';
 import signUpImage from '../images/sign-up.jpg';
 import { useForm } from 'react-hook-form';
 
@@ -35,7 +34,7 @@ const SignUp = () => {
 
                     <input 
                     {...register("email",
-                    {required:true , pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, minLength: 8 } )}
+                    {required:true , pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, minLength: 8 } )}
                     type="email" 
                     placeholder="Email address"/><br/>
                     {errors.email && <span className="error-message">Email address is required</span>}
@@ -59,6 +58,7 @@ const SignUp = () => {
                         <p>I agree to the <a href="/">term's of service</a> and <a href="/">privacy policy</a> </p>
                     </div>
                     <div className="checkBox__error">{errors.checkBox && 'Please check the box'}</div>
+                    
                     <button>Sign Up</button>
 
                 </form>

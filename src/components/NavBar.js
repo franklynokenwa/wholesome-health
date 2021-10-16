@@ -1,21 +1,19 @@
 import React, {useState} from 'react';
-import { useAuth0 } from '@auth0/auth0-react';
 import {Link} from 'react-router-dom'
 import "../css/NavBar.css"
 import SignUpComponent from './SignUpComponent';
 import LogInComponent from './LogInComponent';
-import LogOutComponent from './LogOutComponent';
-import UserDashBoard from './UserDashBoard';
 
 const NavBar = () => {
-    const {loginWithRedirect} = useAuth0();
-    const [logInText, setLogInText] = useState('Log In');
-    const [signUpText, setSignUpText] = useState('Sign Up');
+    const [logInText] = useState('Log In');
+    const [signUpText] = useState('Sign Up');
 
 
     return (
         <nav>
-            <h3>WholeSome Health</h3> 
+            <Link to={`/`} className="nav-logo" >
+                <h3>WholeSome Health</h3> 
+            </Link>
             <div className="nav-items">
                 <Link to={`/`} className="link">
                     <p>Home</p>                
@@ -32,9 +30,8 @@ const NavBar = () => {
         
             </div>
             <div className="nav-buttons">
-               <SignUpComponent  onClick={() => loginWithRedirect()} signUpText={signUpText}/>
-               <LogInComponent  onClick={() => loginWithRedirect()} logInText={logInText} />
-               <LogOutComponent/>
+               <SignUpComponent signUpText={signUpText}/>
+               <LogInComponent  logInText={logInText} />
             </div>  
         </nav>
     )

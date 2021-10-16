@@ -9,7 +9,7 @@ This is a simple health consulting website
   - [Built with](#built-with)
 
 ## Overview
-This is a health consulting website that contains a services, about us, contact and sign in and sign up page. It has Auth0 authentication implemented in it
+This is a health consulting website that contains a services, about us, contact and sign in and sign up page.
 
 ### Screenshot
 

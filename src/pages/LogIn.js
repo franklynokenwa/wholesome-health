@@ -1,9 +1,7 @@
 import React from 'react'
-import serviceImage from '../images/pexels-tima-miroshnichenko-5452201.jpg';
 import signInImage from '../images/sign-up.jpg';
 import '../css/LogIn.css'
 import { useForm } from 'react-hook-form';
-
 
 
 const LogIn = () => {
@@ -20,7 +18,7 @@ const LogIn = () => {
                 <h2>Sign In</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input {...register("email",
-                    {required:true , pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, minLength: 8 } )} 
+                    {required:true , pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, minLength: 8 } )} 
                     type="email" 
                     placeholder="Email address"
                     /><br/>
@@ -33,6 +31,7 @@ const LogIn = () => {
                      /> <br/>
                      {errors.password && <span className="error-message">Please enter a valid password</span>}
                      <br/>
+
                     <button>Sign In</button>
 
                 </form>

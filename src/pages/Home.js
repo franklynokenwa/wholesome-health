@@ -4,14 +4,12 @@ import NavBar from '../components/NavBar'
 import ExpertTeam from '../components/ExpertTeam';
 import {Link} from 'react-router-dom'
 import '../css/Home.css'
+import '../css/Responsiveness.css'
 
-import doc from '../images/clipart-doctor-lady-doctor-11.png';
-import serviceImage from '../images/pexels-tima-miroshnichenko-5452201.jpg';
 import groupDoctors from '../images/group-doctors.png'
 import twoDoc from '../images/two-doc.png'
 import surgery from '../images/surgery.jpg'
 import qualifiedDoc from '../images/qualified-doc.png'
-import hospitalFacility from '../images/hospital-facility.png'
 import hospitalRoom from '../images/hospital-room.jpg'
 
 
@@ -19,7 +17,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStethoscope } from '@fortawesome/free-solid-svg-icons'
 import { faXRay } from '@fortawesome/free-solid-svg-icons'
 import { faProcedures } from '@fortawesome/free-solid-svg-icons'
-
 
 
 const Home = () => {

@@ -13,7 +13,9 @@ import { faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
     return (
         <section className="footer">
-            <h3>WholeSome Health</h3> 
+            <Link to={`/`} className="nav-logo">
+                <h3>WholeSome Health</h3> 
+            </Link> 
             <div className="footer__links">
                 <Link to={`/`} className="footer-link">
                     <p>Home</p>                

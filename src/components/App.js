@@ -8,7 +8,7 @@ import LogIn from '../pages/LogIn';
 import UserDashBoard from './UserDashBoard';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -18,8 +18,8 @@ function App() {
   return (
     <Router>
     <Switch>
-      <Route path='/' exact>
-      <Home/>
+      <Route path={`/`} exact>
+        <Home/>
       </Route>
 
       <Route path={`/about`}>
@@ -45,10 +45,6 @@ function App() {
       <Route path={`/dashboard`}>
         <UserDashBoard/>
       </Route>
-
-
-
-
 
     </Switch>
   </Router>

@@ -1,13 +1,12 @@
 import React from 'react'
-import { useAuth0 } from '@auth0/auth0-react';
+import {Link} from 'react-router-dom'
 
 
 const LogOutComponent = () => {
-    const {logout} = useAuth0();
     return (
-        <div>
-            <a href="/"><button className="nav-buttons__login" onClick={() => logout()}>Log Out</button></a>
-        </div>
+        <Link to={`/`}>
+            <button className="nav-buttons__login">Log Out</button>
+        </Link>
     )
 }
 

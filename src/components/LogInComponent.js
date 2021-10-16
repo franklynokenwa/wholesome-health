@@ -1,11 +1,13 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 
 const LogInComponent = (props) => {
-    const {onClick, logInText} = props
+    const {logInText} = props
     return (
-        <div>
-            <a href="/"><button className="nav-buttons__login" onClick={onClick}>{logInText}</button></a>
-        </div>
+        <Link to={`/login`} className="sign-in-link">
+            <button className="nav-buttons__login">{logInText}</button>
+        </Link>
     )
 }
 

@@ -15,6 +15,10 @@ nav{
     
 
 }
+.nav-logo{
+    text-decoration: none;
+}
+
 .nav-items p{
     height: 3.5rem;
     cursor: pointer;

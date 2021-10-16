@@ -1,12 +1,14 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 
 const SignUpComponent = (props) => {
-    const {onClick, signUpText} = props
+    const {signUpText} = props
 
     return (
-        <div>
-            <a href="/"><button className="nav-buttons__sign-up"  onClick={onClick}>{signUpText}</button></a>
-        </div>
+        <Link to={`/signup`} className="sign-up-link">
+            <button className="nav-buttons__sign-up">{signUpText}</button>
+        </Link>
     )
 }
 
