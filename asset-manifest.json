@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wholesome-health/static/css/main.3079ed7b.chunk.css",
-    "main.js": "/wholesome-health/static/js/main.c64f46a9.chunk.js",
-    "main.js.map": "/wholesome-health/static/js/main.c64f46a9.chunk.js.map",
+    "main.js": "/wholesome-health/static/js/main.88687fed.chunk.js",
+    "main.js.map": "/wholesome-health/static/js/main.88687fed.chunk.js.map",
     "runtime-main.js": "/wholesome-health/static/js/runtime-main.644a88f6.js",
     "runtime-main.js.map": "/wholesome-health/static/js/runtime-main.644a88f6.js.map",
     "static/js/2.bcd11a2b.chunk.js": "/wholesome-health/static/js/2.bcd11a2b.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.644a88f6.js",
     "static/js/2.bcd11a2b.chunk.js",
     "static/css/main.3079ed7b.chunk.css",
-    "static/js/main.c64f46a9.chunk.js"
+    "static/js/main.88687fed.chunk.js"
   ]
 }
